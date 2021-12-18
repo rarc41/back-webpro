@@ -1,0 +1,31 @@
+{
+  "name": "projectmanager",
+  "version": "1.0.0",
+  "description": "aplicaicon de administracion de proyectos desarrollado en el ultimo cilo del programa mision tic 2021",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDHINCAMAN/WebProject-misionTIC.git"
+  },
+  "author": "Robin Romero, Juan David hincapie, Yurley Gallego, Cristian Osorio, Cristian Orozco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JDHINCAMAN/WebProject-misionTIC/issues"
+  },
+  "homepage": "https://github.com/JDHINCAMAN/WebProject-misionTIC#readme",
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "graphql": "^16.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
